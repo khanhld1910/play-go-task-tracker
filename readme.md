@@ -15,6 +15,8 @@ You can try the tool by running the following commands:
 
 ```bash
 go run main.go task-cli [command] [arguments]
+# for example:
+go run main.go version
 ```
 
 ### Running the executable file
@@ -29,6 +31,8 @@ then you can run the executable file by running:
 
 ```bash
 ./task-cli [command] [arguments]
+# for example:
+./task-cli version
 ```
 
 ## Requirements

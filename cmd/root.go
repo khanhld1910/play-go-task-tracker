@@ -7,14 +7,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var rootCmd = &cobra.Command{
-	Use:   "task-cli",
-	Short: "task-cli is a CLI for managing your TODOs.",
-	Long:  `A CLI for managing your TODOs built by practicing Golang by khanhld1910`,
-	Run: func(cmd *cobra.Command, args []string) {
-		cmd.Help()
-	},
-}
+var rootCmd = &cobra.Command{}
 
 func Execute() {
 	if err := rootCmd.Execute(); err != nil {
