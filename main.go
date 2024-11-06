@@ -1,5 +1,9 @@
 package main
 
+import (
+	"example/go-task-tracker/cmd"
+)
+
 func main() {
-	println("Hello, Universe!")
+	cmd.Execute()
 }
