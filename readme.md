@@ -3,9 +3,33 @@
 This is my first project to practice what I've learned in Go following this [back-end roadmap](https://roadmap.sh/backend) and [Golang roadmap](https://roadmap.sh/golang).
 The requirements for this project can be found at roadmap.sh's [Task Tracker](https://roadmap.sh/projects/task-tracker) project.
 
+## Prerequisites
+
+- Go 1.16 or higher installed on your machine
+
 ## Quick Start
 
-TBU
+### Directly running Go code
+
+You can try the tool by running the following commands:
+
+```bash
+go run main.go task-cli [command] [arguments]
+```
+
+### Running the executable file
+
+or you can build an executable file by running:
+
+```bash
+go build -o task-cli main.go
+```
+
+then you can run the executable file by running:
+
+```bash
+./task-cli [command] [arguments]
+```
 
 ## Requirements
 
